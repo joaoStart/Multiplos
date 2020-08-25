@@ -1,0 +1,68 @@
+body {
+    width: 99%;
+    height: 80vh ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+div.container {
+    width: 600px;
+    height: 300px;
+    border: 2px solid #000000;
+    border-radius: 15px; 
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10px;
+}
+.container h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+}
+#multiplo {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    font-family: 'Press Start 2P', cursive;
+    outline: 0;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btnInit {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    border: 1px solid #000000;
+    outline: 0;
+    border-radius: 25px;
+    overflow: hidden;
+}
+#btnInit:hover {
+    color: #ffffff;
+    background: #000000;
+}
+#visor {
+    font-size: 15px; ;
+    margin-top: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
